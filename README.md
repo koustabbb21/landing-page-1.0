@@ -80,7 +80,7 @@ Each card includes:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/streamline-landing-page.git
+git clone https://github.com/your-username/landing-page-1.0.git/
 ```
 
 2. Open the project folder.
