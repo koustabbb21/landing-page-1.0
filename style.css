@@ -391,3 +391,59 @@
     position: relative;
     right: 60px;
 }
+
+.cta-container {
+    height: 400px;
+    width: 100%;
+    background-color: #0051ffc9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cta-heading {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    bottom: 30px;
+}
+
+.cta-subheading {
+    color: #ffffffc9;
+    font-size: 18px;
+    word-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cta-button {
+    color: #1D4ED8;
+    background-color: #ffffff;
+    height: 60px;
+    width: 220px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+    top: 40px;
+}
+
+.cta-button:hover {
+    background-color: #F0F2F5;
+    cursor: pointer;
+}
