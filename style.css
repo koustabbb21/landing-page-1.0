@@ -288,32 +288,34 @@
 }
 
 .features-container {
-    height: 700px;
+    height: 600px;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.10);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
 }
 
 .features-text-container {
-    height: 100px;
+    height: 30%;
     width: 100%;
-    margin: 80px 0px 30px 0px;
 }
 
 #features-heading {
-    height: 40px;
+    color: #1D4ED8;
+    height: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 1px;
     word-spacing: 1px;
+    position: relative;
+    top: 70px;
 }
 
 #features-subheading {
@@ -325,7 +327,67 @@
     align-content: center;
     font-size: 16px;
     font-weight: 400;
-    position: relative;
-    top: 18px;
     word-spacing: 1px;
+    position: relative;
+    top: 90px;
+}
+
+.features-card-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.features-card-container-items {
+    height: 45%;
+    width: 20%;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 0.75px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.10);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 25px;
+}
+
+.features-card-container-items:hover {
+    border: 0.75px solid #1D4ED8;
+}
+
+.card-icons {
+    height: 45px;
+    width: 45px;
+    color: #1D4ED8;
+    background-color: #cadaf0;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-headings {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-subheadings {
+    color: #6a7179;
+}
+
+#card1-container  {
+    position: relative;
+    left: 60px;
+}
+
+#card3-container  {
+    position: relative;
+    right: 60px;
 }
