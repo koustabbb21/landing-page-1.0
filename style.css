@@ -104,6 +104,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    position: relative;
+    left: 20px;
 }
 
 .get-started-button:hover {
